@@ -9,6 +9,7 @@ class Person
   end
   
   def name(p_name)
+    puts `{@p_name}`
   end
   
   def job(p_job)
@@ -16,5 +17,6 @@ class Person
   end
   
   def job(p_job)
+    puts `{@p_job}`
   end
 end
