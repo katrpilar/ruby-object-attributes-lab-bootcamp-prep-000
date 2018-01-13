@@ -1,22 +1,22 @@
 class Dog 
-  def initialize(their_name, their_breed)
-    @their_name = their_name
-    @their_breed = their_breed
+  def initialize(name, their_breed)
+    @name = name
+    @breed = breed
   end
   
-  def name=(their_name)
-    @their_name = their_name
+  def name=(name)
+    @name = name
   end 
   
-  def name(their_name)
-    puts `{@their_name}`
+  def name(name)
+    @name
   end
   
-  def breed=(their_breed)
-    @their_breed = their_breed
+  def breed=(breed)
+    @breed = breed
   end
   
-  def breed(their_breed)
-    puts `{@their_breed}`
+  def breed(breed)
+    @breed
   end
 end
