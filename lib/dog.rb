@@ -9,7 +9,7 @@ class Dog
   end 
   
   def name(their_name)
-    name = their_name
+    puts `{@their_name}`
   end
   
   def breed=(their_breed)
@@ -17,5 +17,6 @@ class Dog
   end
   
   def breed(their_breed)
+    puts `{@their_breed}`
   end
 end
