@@ -1,8 +1,4 @@
 class Person
-  def initialize(p_name, p_job)
-    @job = p_job
-    @name = p_name
-  end
   
   def name=(p_name)
     @name = p_name
