@@ -5,7 +5,7 @@ class Person
   end
   
   def name
-    puts `{@p_name}`
+    @p_name
   end
   
   def job=(p_job)
@@ -13,6 +13,6 @@ class Person
   end
   
   def job
-    puts `{@p_job}`
+    @p_job
   end
 end
