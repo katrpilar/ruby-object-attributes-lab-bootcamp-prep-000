@@ -5,7 +5,7 @@ class Dog
   end
   
   def name=(dname)
-    @name = name
+    @name = dname
   end 
   
   def name(dname)
